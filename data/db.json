@@ -9,6 +9,11 @@
       "id": 2,
       "name": "visiting-user",
       "location": "UK"
+    },
+    {
+      "name": "Vin",
+      "location": "China",
+      "id": 3
     }
   ],
   "posts": [
@@ -57,5 +62,17 @@
       "userId": 1
     }
   ],
-  "comments2": []
+  "comments2": [],
+  "followers": [
+    {
+      "id":1,
+      "userId": 1,
+      "target": 2
+    },
+    {
+      "id":2,
+      "userId": 1,
+      "target": 3
+    }
+  ]
 }
