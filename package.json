@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-mock": "^0.1.0"
-  }
+    "json-mock": "^0.1.0",
+    "snyk": "^1.30.1"
+  },
+  "snyk": true
 }
